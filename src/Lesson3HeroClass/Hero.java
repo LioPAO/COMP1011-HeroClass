@@ -24,6 +24,20 @@ public class Hero {
         generateAbilitiies();
     }
 
+    //GETTERS--------------------------------------------
+    public int getStrength() {
+        return this.strength;
+    }
+    public int getSpeed() {
+        return this.speed;
+    }
+    public int getHealth() {
+        return this.health;
+    }
+    public String getName() {
+        return this.name;
+    }
+
     //PRIVATE METHODS ------------------------------------------
     private void generateAbilitiies(){
         this.strength = (int) ((Math.random() * 100) + 1);
@@ -55,6 +69,5 @@ public class Hero {
         System.out.println("Health : " + this.health);
         System.out.println("-----------------");
     }
-
 
 }
