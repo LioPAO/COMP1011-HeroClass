@@ -42,7 +42,7 @@ public class SuperHero extends Hero{
         System.out.println("Health : " + getHealth());
         System.out.println(getName()     + "'s Super powers");
         for (int i=0; i<superPowers.length;i++) {
-            System.out.println("Power No " + (i + 1) + " : " + superPowers[i]);
+            System.out.println("Super Power No " + (i + 1) + " : " + superPowers[i]);
         }
         System.out.println("-----------------");
 
