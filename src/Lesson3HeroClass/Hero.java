@@ -25,8 +25,9 @@ public class Hero {
     public void fight(){
        if( hitAttempt()) {
            System.out.println(this.name + " has received " + hitDamge() + " damage.");
+       }else {
+           System.out.println(this.name + " has received " + "0 damage.");
        }
-        System.out.println(this.name + " has received " + "0 damage.");
     }
     public boolean hitAttempt(){
         int random = (int) (Math.random() * 101);
